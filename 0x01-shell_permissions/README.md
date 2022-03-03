@@ -53,4 +53,21 @@
 	 chgrp school hello
 	 
 	 end of mandatory tasks
+	 begging of advanced task
+	 
+100:  Change owner to `vincent` and the group owner to `staff` for all files and directories in current directory.
+ chown vincent:staff *
+	 
+
+101:  Changes the owner and group owner of file `_hello` to `vincent` and `staff` respectively.
+	 chown -h vincent:staff _hello
+	 
+
+102:  Changes owner of the file `hello` to `betty` only if it is currently owned by `guillaume`
+	 chown --from=guillaume betty hello
+	 
+
+103:  Play the Star Wars IV episode in the terminal. This is a premade script provided online.
+	URL: telnet towel.blinkenlights.nl
+
 
