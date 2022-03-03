@@ -40,5 +40,17 @@
 
  10: Copies the mode of file olleh to file hello.
 	 chmod --reference=olleh hello
+
+11:  Add execute permission to all subdirectories of the current directory for the everyone. Regular files should not be changed.
+
+	 chmod -R +X .
 	 
+12:  Create a directory called `my_dir` with permissions 751 in the working directory. User has all read, write, and execute permissions. Group has read and execute permissions. Others have just execute permission.
+	 mkdir -m 751 my_dir
+	 
+
+ 13:  Change group owner to `school` for the file `hello`
+	 chgrp school hello
+	 
+	 end of mandatory tasks
 
